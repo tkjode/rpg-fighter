@@ -1,0 +1,164 @@
+BODY {
+   background-color: #101010;
+   color: white;
+   margin: 0px;
+   text-align: center;
+   background-image:URL("nn.jpg");
+   
+}
+DIV.logLine {
+   font-family: monospace;
+   font-size: small;
+   -webkit-transition: opacity 1s, width 1s;
+   transition: opacity 1s, width 1s;
+   
+   position: relative;
+   
+   width: 0%;
+   
+   
+   overflow: hidden;
+   white-space: nowrap;
+   bottom: 0;
+   left: 0;
+}
+
+DIV.consoleHolder {
+      display: table-cell;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      vertical-align: bottom;
+}
+
+DIV.console {
+   background-color: black;
+   font-family: monospace;
+   border-style: solid;
+   border-width: 1px;
+   border-color: white;
+   display: inline-block;   
+   
+   width: 75%;
+   position: relative;
+   
+   left: auto;
+   text-align: left;
+   height: 128px;
+   overflow-y: hidden;
+   padding: 5px;
+   margin: 5px;
+   border-radius: 5px;
+   
+}
+
+DIV.arena {
+   background-color: #222222;
+   font-family: monospace;
+   border-style: solid;
+   border-width: 1px;
+   border-color: white;
+   display: inline-block;
+   width: 75%;
+   position: relative;
+   left: auto;
+   text-align: center;
+   min-height: 500px;
+   border-radius: 5px;
+   padding: 5px;
+   margin: 5px;
+   -webkit-box-shadow: 5px 5px 24px 0px rgba(0,0,0,0.5);
+   -moz-box-shadow: 5px 5px 24px 0px rgba(0,0,0,0.5);
+   box-shadow: 5px 5px 24px 0px rgba(0,0,0,0.5);
+}
+
+.detailContainer {
+   background-color: #cccccc;
+   text-align: left;
+   display: inline-block;
+   width: 100%;
+   
+}
+
+.avatarLeft {   
+   width: 128px;
+   height: 128px;
+   
+   float: left;
+}
+
+.statsRight {
+   
+   float: none;
+   
+}
+
+.imgAvatar {
+   height: 128px;
+   width: 128px;
+   }
+.partyName {
+   font-family: fantasy;
+   font-size: larger;
+}
+
+.entityCardContainer {
+   border-style: solid;
+   border-color: black;
+   background-color: #ffffff;
+   border-width: 2px;
+   border-radius: 5px;
+   color: black;
+}
+
+.entityName {
+   font-size: large;
+   border-style: none none solid none;
+   border-color: #999999;
+   border-width: 1px;
+}
+
+.stats {
+   text-align: left;
+}
+
+.debug {
+   font-family: monospace;
+   font-size: xx-small;
+   padding: 20px;
+   text-align: left;
+   background-color: #002244;
+   color: #EEFFFF;
+}
+
+.ctrBoxen {
+   display: inline-block;
+   word-break: break-all;
+   border-style: solid;
+   border-width: 1px;
+   margin: 5px;
+   padding: 5px;
+   width: 30%;
+}
+
+DIV.hero {
+   border-color: #007700;
+   vertical-align: top;
+   }
+
+DIV.actions {
+   border-color: white;
+   vertical-align: top;
+}
+   
+DIV.rightAligned {
+   border-color: white;
+   vertical-align: top;
+   text-align: right;
+}
+   
+DIV.enemy {
+   border-color: #770000;
+   vertical-align: top;
+   }

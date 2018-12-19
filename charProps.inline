@@ -1,0 +1,14 @@
+<DIV id="charTitle" class=title>Character Editor</DIV>
+<DIV id="charPortrait">Portrait URL: <INPUT></INPUT></DIV>
+<DIV id="charName">Name: <INPUT></INPUT></DIV>
+<DIV id="charGender">Gender: <INPUT></INPUT></DIV>
+<DIV id="charRace">Race: <INPUT></INPUT></DIV>
+<DIV id="charAge">Age: <INPUT SIZE=4></INPUT></DIV>
+<DIV id="charHP">Character HP: <INPUT SIZE=5></INPUT></DIV>
+<DIV id="charMana">Character Mana: <INPUT SIZE=5></INPUT></DIV>
+<DIV id="charSTR">STR: <INPUT SIZE=5></INPUT></DIV>
+<DIV id="charDEX">DEX: <INPUT SIZE=5></INPUT></DIV>
+<DIV id="charEND">END: <INPUT SIZE=5></INPUT></DIV>
+<DIV id="charPER">PER: <INPUT SIZE=5></INPUT></DIV>
+<DIV id="charINT">INT: <INPUT SIZE=5></INPUT></DIV>
+<DIV id="charCHA">CHA: <INPUT SIZE=5></INPUT></DIV>
